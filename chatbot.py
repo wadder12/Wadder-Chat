@@ -14,7 +14,7 @@ messages_in_dm = []
 conversations = {}
 
 # Create a client object for OpenAI
-openai.api_key = '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' 
+openai.api_key = '' 
 
 async def chat(messages):
     try:
@@ -95,4 +95,4 @@ async def on_message(message):
         await bot.process_commands(message)
 
 # Run the bot with your own bot token 
-bot.run('MTA3NTE0NDgyODMzMDk3MTE4Ng.GiwwBY.9OnBwasnq7RMcuvXdrAipBSaC8B6YYk2UlUyLY')
+bot.run('')
